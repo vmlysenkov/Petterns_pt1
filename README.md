@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/17075ihk1xqka6yu?svg=true)](https://ci.appveyor.com/project/vmlysenkov/petterns-pt1)
