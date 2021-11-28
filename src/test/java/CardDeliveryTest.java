@@ -19,8 +19,6 @@ public class CardDeliveryTest {
         System.out.println(data);
 
 
-
-
         EstablishedDate firstDate = new EstablishedDate();
         EstablishedDate secondDate = new EstablishedDate();
         firstDate.setBankVisitDate(4);
