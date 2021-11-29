@@ -39,6 +39,7 @@ public class CardDeliveryTest {
         $(withText("Перепланировать")).click();
         $(withText("Встреча успешно")).shouldBe(appear, Duration.ofSeconds(15)).shouldHave(text(secondFormattedBankVisitDate));
     }
+
 }
 
 
