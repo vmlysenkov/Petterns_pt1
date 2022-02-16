@@ -1,13 +1,10 @@
-public class RegistrationData {
-    private String name;
-    private String phone;
-    private String city;
+import lombok.Value;
 
-    public RegistrationData(String fullName, String phoneNumber, String cityName) {
-        this.name = fullName;
-        this.phone = phoneNumber;
-        this.city = cityName;
-    }
+@Value
+public class RegistrationData {
+    String name;
+    String phone;
+    String city;
 
     @Override
     public String toString() {
@@ -16,29 +13,5 @@ public class RegistrationData {
                 ", phone='" + phone + '\'' +
                 ", city='" + city + '\'' +
                 '}';
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 }
